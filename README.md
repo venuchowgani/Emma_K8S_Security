@@ -57,7 +57,7 @@
 * Ensure that the green environment has the same or equivalent configurations as the blue environment, including networking, security policies, and dependencies.
 
 #### Deploy Application Updates
-* Package and deploy updated versions of our application or infrastructure to the green environment. This could involve building new Docker images, updating Kubernetes * deployment manifests, or using deployment automation tools like Helm charts.
+* Package and deploy updated versions of our application or infrastructure to the green environment. This could involve building new Docker images, updating Kubernetes deployment manifests, or using deployment automation tools like Helm charts.
 
 #### Gradual Traffic Shifting
 * Implement a traffic shifting strategy to gradually redirect traffic from the blue environment to the green environment. This can be achieved using Kubernetes features like service selectors, load balancers, or ingress controllers.
