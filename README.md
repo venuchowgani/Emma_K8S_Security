@@ -1,4 +1,4 @@
-### AWS EKS Security Best Practices
+### AWS EKS Cluster Security Best Practices
 
 #### Control Plane Security
 * Use AWS IAM (Identity and Access Management) to control access to the EKS control plane.
