@@ -82,7 +82,7 @@
 
 ### Common Kubernetes Security Threats and Challenges
 #### Kubernetes Pod-to-Pod Networking
-* Kubernetes pod-to-pod networking—the ability for pods to communicate with each other—is crucial to the functioning of our applications. However, this communication can also pose a significant security risk.
+* Kubernetes pod-to-pod networking, the ability for pods to communicate with each other—is crucial to the functioning of our applications. However, this communication can also pose a significant security risk.
 
 * The default behavior in Kubernetes is to allow all pods to communicate freely with each other, regardless of their location within the cluster. This unrestricted communication can lead to a situation where a compromise in one pod can quickly lead to a compromise in others.
 
